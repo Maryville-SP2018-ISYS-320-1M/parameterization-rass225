@@ -4,13 +4,6 @@
 	Date: 
 */
 
-/*
- 7. After you fixed the error, why is this an error? Note: do not just repeat Eclipse's error message,
- why did Eclipse have that error message?
- 
- 
- 
- */
 
 public class P7_FixThis {
 
@@ -20,8 +13,8 @@ public class P7_FixThis {
 			writeChar( '*', starsToWrite );
 			System.out.println();
 		}
-
-	}
+		
+	    }
 	
 	public static void writeChar( char characterToPrint, int numOfTimesToPrint  ) {
 		for( int numOfTimesPrinted = 1; numOfTimesPrinted <= numOfTimesToPrint; numOfTimesPrinted++ ) {
